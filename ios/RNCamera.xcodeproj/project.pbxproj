@@ -19,6 +19,7 @@
 		71C7FFD32013C817006EB75A /* RNImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C7FFD22013C817006EB75A /* RNImageUtils.m */; };
 		71C7FFD62013C824006EB75A /* RNFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C7FFD52013C824006EB75A /* RNFileSystem.m */; };
 		9FE592B31CA3CBF500788287 /* RCTSensorOrientationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE592B21CA3CBF500788287 /* RCTSensorOrientationChecker.m */; };
+		C3FE2FEF22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FE2FED22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.m */; };
 		F8393BEC21469C0000AB1995 /* RNSensorOrientationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8393BEB21469C0000AB1995 /* RNSensorOrientationChecker.m */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		71C7FFD52013C824006EB75A /* RNFileSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFileSystem.m; sourceTree = "<group>"; };
 		9FE592B11CA3CBF500788287 /* RCTSensorOrientationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTSensorOrientationChecker.h; sourceTree = "<group>"; };
 		9FE592B21CA3CBF500788287 /* RCTSensorOrientationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTSensorOrientationChecker.m; sourceTree = "<group>"; };
+		C3FE2FED22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeDetectorManagerMlkit.m; sourceTree = "<group>"; };
+		C3FE2FEE22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeDetectorManagerMlkit.h; sourceTree = "<group>"; };
 		F8393BEA21469C0000AB1995 /* RNSensorOrientationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSensorOrientationChecker.h; sourceTree = "<group>"; };
 		F8393BEB21469C0000AB1995 /* RNSensorOrientationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSensorOrientationChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +113,8 @@
 		714166162013E1B600EE9FCC /* RN */ = {
 			isa = PBXGroup;
 			children = (
+				C3FE2FEE22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.h */,
+				C3FE2FED22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.m */,
 				F8393BEA21469C0000AB1995 /* RNSensorOrientationChecker.h */,
 				F8393BEB21469C0000AB1995 /* RNSensorOrientationChecker.m */,
 				2647D66F2256BBD5007D2F91 /* FaceDetectorManagerMlkit.h */,
@@ -192,6 +197,7 @@
 				71C7FFD62013C824006EB75A /* RNFileSystem.m in Sources */,
 				4107014E1ACB732B00C6AA39 /* RCTCameraManager.m in Sources */,
 				4107014D1ACB732B00C6AA39 /* RCTCamera.m in Sources */,
+				C3FE2FEF22CE05AB0062EDDC /* BarcodeDetectorManagerMlkit.m in Sources */,
 				F8393BEC21469C0000AB1995 /* RNSensorOrientationChecker.m in Sources */,
 				71C7FFD02013C7E5006EB75A /* RNCameraUtils.m in Sources */,
 				7162BE682013EAA400FE51FF /* RNCameraManager.m in Sources */,
